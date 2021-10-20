@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(#03fccf 0%, #07d3f2 100%);
+    text-align: center;
+}
+
+#one_image {
+    width: 200px;
+    border-radius: 70%;
+    margin-right: 30px;
+}
+
+.line {
+    height: 7px;
+    width: 100px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+#first_para {
+    color: blue;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.links{
+    font-size: 20px;
+    font-family: fantasy;
+    float: right;
+    right: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    list-style: none;
+    top: 10px;
+    padding: 5px;
+}
+.links:hover{
+    background-color: red;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    font-size: 20px;
+}
+
+.menu{
+    position: fixed;
+}
